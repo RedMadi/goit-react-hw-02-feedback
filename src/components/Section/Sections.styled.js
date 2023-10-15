@@ -9,7 +9,6 @@ export const SectionStyle = styled.section`
     /* Styles for children of Section */
     display: flex;
     gap: 30px;
-    /* Add any other styles you need for the children here */
   }
 `;
 export const Title = styled.h2`

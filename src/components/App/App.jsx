@@ -9,12 +9,6 @@ export default class App extends Component {
     neutral: 0,
     bad: 0,
   };
-
-  // handleFeedback = option => {
-  //   this.setState(prevState => ({
-  //     [option]: prevState[option] + 1,
-  //   }));
-  // };
   handleFeedback = option => {
     this.setState(prevState => {
       return { [option]: prevState[option] + 1 };
